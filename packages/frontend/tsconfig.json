@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "sourceMap": false,
+    "outDir": "./../../static/js/"
+  },
+  "include": [
+    "./../../src/**/*.ts",
+    "./src/**/*.ts",
+    "./src/**/*.js",
+    "./src/**/*.jsx",
+    "./src/**/*.tsx",
+    "./src/**/*.d.ts"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./../../node_modules"
+  ]
+}
